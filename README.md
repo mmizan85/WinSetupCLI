@@ -1,6 +1,6 @@
 # 🚀 WinSetup: Ultimate Windows Post-Installation Tool
 
-**WinSetup** is a powerful, modern, and open-source software installer designed for Windows 10 and 11. Built with **PowerShell** and powered by **Microsoft Winget**, it allows users to set up their fresh Windows environment with 100+ essential tools in just a few clicks.
+**WinSetupCLI** is a powerful, modern, and open-source software installer designed for Windows 10 and 11. Built with **PowerShell** and powered by **Microsoft Winget**, it allows users to set up their fresh Windows environment with 150+ essential tools in just a few clicks.
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Platform](https://img.shields.io/badge/platform-Windows%2010%20%7C%2011-original)
@@ -24,8 +24,8 @@
 Setting up your PC with WinSetup is incredibly easy:
 
 1.  **Download** the repository to your local machine.
-2.  Locate the `start.bat` file.
-3.  **Right-click** on `start.bat` and select **"Run as Administrator"**.
+2.  Locate the `WinSetupCLI.exe` file.
+3.  **Right-click** on `WinSetupCLI.exe` and select **"Run as Administrator"**.
 4.  The **WinSetup** GUI will appear.
 5.  Select a **Category**, check the apps you want, and hit **INSTALL SELECTED**.
 
@@ -59,7 +59,7 @@ Setting up your PC with WinSetup is incredibly easy:
 * **Backend:** PowerShell Core.
 * **Frontend:** .NET Windows Forms (System.Windows.Forms).
 * **Package Engine:** Windows Package Manager (winget).
-* **Execution Policy:** The `start.bat` automatically bypasses execution policies to ensure smooth startup.
+* **Execution Policy:** The `WinSetupCLI.exe` automatically bypasses execution policies to ensure smooth startup.
 
 ---
 
@@ -83,4 +83,5 @@ What's next?
  * Screenshots: Open your tool, take a screenshot, and upload it to your GitHub repository. Then update the README.md with the image link.
  * License: You can add a file named LICENSE (usually MIT) to make it more professional.
 Would you like me to help you with a LICENSE file or any other documentation?
+
 
